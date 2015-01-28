@@ -1,7 +1,7 @@
 var isValidCSSProps = require('valid-css-props');
 
 function isValidProp(prop) {
-  return isValidCSSProps(prop);
+  return true;
 }
 
 function isValidValue(value) {
